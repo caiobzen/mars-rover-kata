@@ -1,35 +1,73 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red85\green116\blue124;\red30\green32\blue40;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;;\csgenericrgb\c33500\c45600\c48800;\csgenericrgb\c11800\c12500\c15700;\csgenericrgb\c100000\c100000\c100000;
+}
 \paperw12240\paperh15840\margl1440\margr1440\vieww9000\viewh8400\viewkind0
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\deftab593
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
 
-\f0\b\fs20 \cf0 REQUIREMENTS:\
-
-\f1\b0 \
-1. You are given the initial starting point (0:0:N) of a rover\
-\
-2. 0,0 are X,Y coordinates on a grid of [10x10]\
-\
-3. N is the direction it is facing (i.e: N, S, E, W)\
-\
-4. Implement commands that turn the rover left/right (L,R)\
-\
-5. "M" moves the rover one step forward on its current direction\
-\
-6. The rover receives a char array of inputs: "RRMLMM" and returns its current position and direction: i.e. "3:9:N"\
-\
-7. Implement wrapping at edges. Once reaching the end of the map, the rover should spawn at the beginning of the axis.\
-\
-8. Implement obstacle detection before each move to a new square. If a given sequence of commands encounters an obstacle, the rover moves up to the last possible point, aborts the sequence and reports the obstacle.\
+\f0\fs56 \cf2 \cb3 # \cf4 MarsRover
+\f1\fs24 \
 \
 \
 
-\f0\b RULES:
-\f1\b0 \
- 1. Hardcore TDD. No Excuses!\
- 2. Change roles (driver, navigator) after each TDD cycle.\
- 3. No red phases while refactoring.\
- 4. Be careful about edge cases and exceptions. We can not afford to lose a mars rover!\
+\f0\fs28 \cf2 1.\cf4  You are given the initial starting point (0, 0, N) of a rover
+\f1\fs24 \
+
+\f0\fs28 \cf2 2.\cf4  0,0 are X,Y coordinates on a grid of (10, 10)
+\f1\fs24 \
+
+\f0\fs28 \cf2 3.\cf4  N is the direction it is facing (N, S, E, W)
+\f1\fs24 \
+
+\f0\fs28 \cf2 4.\cf4  L and R allow the rover to rotate left and right around the grid
+\f1\fs24 \
+
+\f0\fs28 \cf2 5.\cf4  M allows the rover to move one point in the current direction
+\f1\fs24 \
+
+\f0\fs28 \cf2 6.\cf4  The rover receives a char array of commands e.g. RMMLM and returns the finishing point after the moves e.g. 2:1:N
+\f1\fs24 \
+
+\f0\fs28 \cf2 7.\cf4  The rover wraps around if it reaches the end of the grid
+\f1\fs24 \
+
+\f0\fs28 \cf2 8.\cf4  The grid may have obstacles. if a given sequence of commands encounters an obstacle, the rover moves up to the last position and reports the obstacle e.g. O:2:2:N\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+\f1\fs24 \
 }
