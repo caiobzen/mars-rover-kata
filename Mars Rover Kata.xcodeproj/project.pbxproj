@@ -11,9 +11,6 @@
 		1132805D251115FB00408BA7 /* Mars_Rover_KataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132805C251115FB00408BA7 /* Mars_Rover_KataTests.swift */; };
 		1132805F251115FB00408BA7 /* Mars_Rover_Kata.h in Headers */ = {isa = PBXBuildFile; fileRef = 11328051251115FB00408BA7 /* Mars_Rover_Kata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11328069251116DC00408BA7 /* About.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 11328068251116DC00408BA7 /* About.rtf */; };
-		1132806B251117E900408BA7 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132806A251117E900408BA7 /* Rover.swift */; };
-		1132806D25112BD100408BA7 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132806C25112BD100408BA7 /* Direction.swift */; };
-		1132806F251206D600408BA7 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132806E251206D600408BA7 /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +31,6 @@
 		1132805C251115FB00408BA7 /* Mars_Rover_KataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars_Rover_KataTests.swift; sourceTree = "<group>"; };
 		1132805E251115FB00408BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11328068251116DC00408BA7 /* About.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = About.rtf; sourceTree = "<group>"; };
-		1132806A251117E900408BA7 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
-		1132806C25112BD100408BA7 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
-		1132806E251206D600408BA7 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +76,6 @@
 				11328051251115FB00408BA7 /* Mars_Rover_Kata.h */,
 				11328052251115FB00408BA7 /* Info.plist */,
 				11328068251116DC00408BA7 /* About.rtf */,
-				1132806A251117E900408BA7 /* Rover.swift */,
-				1132806E251206D600408BA7 /* Map.swift */,
-				1132806C25112BD100408BA7 /* Direction.swift */,
 			);
 			path = "Mars Rover Kata";
 			sourceTree = "<group>";
@@ -209,9 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1132806B251117E900408BA7 /* Rover.swift in Sources */,
-				1132806F251206D600408BA7 /* Map.swift in Sources */,
-				1132806D25112BD100408BA7 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +394,6 @@
 		11328066251115FB00408BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Mars Rover KataTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -424,7 +411,6 @@
 		11328067251115FB00408BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Mars Rover KataTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
